@@ -2,7 +2,7 @@ services:
   - type: web
     name: gridwise
     runtime: docker
-    repo: https://github.com/YOUR_USER/YOUR_REPO
+    repo: https://github.com/jadab691/BUP_preli_Hack
     plan: free
     dockerfilePath: ./Dockerfile
     healthCheckPath: /health
